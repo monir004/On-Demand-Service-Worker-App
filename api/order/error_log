@@ -1,0 +1,151 @@
+[28-Jun-2018 02:22:15 America/Chicago] PHP Warning:  include(db2.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderpost.php on line 6
+[28-Jun-2018 02:22:15 America/Chicago] PHP Warning:  include(db2.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderpost.php on line 6
+[28-Jun-2018 02:22:15 America/Chicago] PHP Warning:  include(): Failed opening 'db2.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/ds2016/public_html/api/order/orderpost.php on line 6
+[28-Jun-2018 02:22:15 America/Chicago] PHP Notice:  Undefined index: orderdata in /home/ds2016/public_html/api/order/orderpost.php on line 9
+[28-Jun-2018 02:22:15 America/Chicago] PHP Notice:  Undefined variable: conn in /home/ds2016/public_html/api/order/orderpost.php on line 45
+[28-Jun-2018 02:22:15 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ds2016/public_html/api/order/orderpost.php on line 45
+[28-Jun-2018 02:22:15 America/Chicago] PHP Notice:  Undefined variable: conn in /home/ds2016/public_html/api/order/orderpost.php on line 46
+[28-Jun-2018 02:22:15 America/Chicago] PHP Warning:  mysqli_insert_id() expects parameter 1 to be mysqli, null given in /home/ds2016/public_html/api/order/orderpost.php on line 46
+[28-Jun-2018 02:22:15 America/Chicago] PHP Notice:  Undefined variable: conn in /home/ds2016/public_html/api/order/orderpost.php on line 100
+[28-Jun-2018 02:22:15 America/Chicago] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ds2016/public_html/api/order/orderpost.php on line 100
+[28-Jun-2018 02:23:03 America/Chicago] PHP Notice:  Undefined index: orderdata in /home/ds2016/public_html/api/order/orderpost.php on line 9
+[28-Jun-2018 02:24:36 America/Chicago] PHP Warning:  include(db2.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 2
+[28-Jun-2018 02:24:36 America/Chicago] PHP Warning:  include(db2.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 2
+[28-Jun-2018 02:24:36 America/Chicago] PHP Warning:  include(): Failed opening 'db2.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/ds2016/public_html/api/order/orderview.php on line 2
+[28-Jun-2018 02:24:36 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ds2016/public_html/api/order/orderview.php on line 4
+[28-Jun-2018 02:24:36 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ds2016/public_html/api/order/orderview.php on line 44
+[28-Jun-2018 02:24:52 America/Chicago] PHP Warning:  include(db2.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderdetails.php on line 2
+[28-Jun-2018 02:24:52 America/Chicago] PHP Warning:  include(db2.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderdetails.php on line 2
+[28-Jun-2018 02:24:52 America/Chicago] PHP Warning:  include(): Failed opening 'db2.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/ds2016/public_html/api/order/orderdetails.php on line 2
+[28-Jun-2018 02:24:52 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ds2016/public_html/api/order/orderdetails.php on line 4
+[28-Jun-2018 02:24:52 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ds2016/public_html/api/order/orderdetails.php on line 43
+[28-Jun-2018 02:27:21 America/Chicago] PHP Notice:  Undefined index: servicequantity in /home/ds2016/public_html/api/order/orderpost.php on line 83
+[28-Jun-2018 02:27:21 America/Chicago] PHP Notice:  Undefined index: serviceprice in /home/ds2016/public_html/api/order/orderpost.php on line 84
+[28-Jun-2018 02:27:21 America/Chicago] PHP Notice:  Undefined index: servicetotal in /home/ds2016/public_html/api/order/orderpost.php on line 85
+[28-Jun-2018 02:27:21 America/Chicago] PHP Notice:  Undefined index: servicequantity in /home/ds2016/public_html/api/order/orderpost.php on line 83
+[28-Jun-2018 02:27:21 America/Chicago] PHP Notice:  Undefined index: serviceprice in /home/ds2016/public_html/api/order/orderpost.php on line 84
+[28-Jun-2018 02:27:21 America/Chicago] PHP Notice:  Undefined index: servicetotal in /home/ds2016/public_html/api/order/orderpost.php on line 85
+[28-Jun-2018 02:30:24 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ds2016/public_html/api/order/orderget.php:2) in /home/ds2016/public_html/api/order/orderget.php on line 4
+[28-Jun-2018 10:57:49 America/Chicago] PHP Notice:  Undefined index: servicequantity in /home/ds2016/public_html/api/order/orderpost.php on line 83
+[28-Jun-2018 10:57:49 America/Chicago] PHP Notice:  Undefined index: serviceprice in /home/ds2016/public_html/api/order/orderpost.php on line 84
+[28-Jun-2018 10:57:49 America/Chicago] PHP Notice:  Undefined index: servicetotal in /home/ds2016/public_html/api/order/orderpost.php on line 85
+[28-Jun-2018 11:45:07 America/Chicago] PHP Notice:  Undefined index: servicequantity in /home/ds2016/public_html/api/order/orderpost.php on line 83
+[28-Jun-2018 11:45:08 America/Chicago] PHP Notice:  Undefined index: serviceprice in /home/ds2016/public_html/api/order/orderpost.php on line 84
+[28-Jun-2018 11:45:08 America/Chicago] PHP Notice:  Undefined index: servicetotal in /home/ds2016/public_html/api/order/orderpost.php on line 85
+[28-Jun-2018 11:45:08 America/Chicago] PHP Notice:  Undefined index: servicequantity in /home/ds2016/public_html/api/order/orderpost.php on line 83
+[28-Jun-2018 11:45:08 America/Chicago] PHP Notice:  Undefined index: serviceprice in /home/ds2016/public_html/api/order/orderpost.php on line 84
+[28-Jun-2018 11:45:08 America/Chicago] PHP Notice:  Undefined index: servicetotal in /home/ds2016/public_html/api/order/orderpost.php on line 85
+[28-Jun-2018 11:57:29 America/Chicago] PHP Notice:  Undefined index: servicequantity in /home/ds2016/public_html/api/order/orderpost.php on line 83
+[28-Jun-2018 11:57:29 America/Chicago] PHP Notice:  Undefined index: serviceprice in /home/ds2016/public_html/api/order/orderpost.php on line 84
+[28-Jun-2018 11:57:29 America/Chicago] PHP Notice:  Undefined index: servicetotal in /home/ds2016/public_html/api/order/orderpost.php on line 85
+[28-Jun-2018 12:01:31 America/Chicago] PHP Notice:  Undefined index: servicequantity in /home/ds2016/public_html/api/order/orderpost.php on line 83
+[28-Jun-2018 12:01:31 America/Chicago] PHP Notice:  Undefined index: serviceprice in /home/ds2016/public_html/api/order/orderpost.php on line 84
+[28-Jun-2018 12:01:31 America/Chicago] PHP Notice:  Undefined index: servicetotal in /home/ds2016/public_html/api/order/orderpost.php on line 85
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ds2016/public_html/api/order/orderview.php on line 9
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ds2016/public_html/api/order/orderview.php on line 10
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ds2016/public_html/api/order/orderview.php on line 9
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ds2016/public_html/api/order/orderview.php on line 10
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ds2016/public_html/api/order/orderview.php on line 9
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ds2016/public_html/api/order/orderview.php on line 10
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ds2016/public_html/api/order/orderview.php on line 9
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ds2016/public_html/api/order/orderview.php on line 10
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ds2016/public_html/api/order/orderview.php on line 9
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ds2016/public_html/api/order/orderview.php on line 10
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ds2016/public_html/api/order/orderview.php on line 9
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ds2016/public_html/api/order/orderview.php on line 10
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ds2016/public_html/api/order/orderview.php on line 9
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ds2016/public_html/api/order/orderview.php on line 10
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ds2016/public_html/api/order/orderview.php on line 9
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ds2016/public_html/api/order/orderview.php on line 10
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ds2016/public_html/api/order/orderview.php on line 9
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ds2016/public_html/api/order/orderview.php on line 10
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ds2016/public_html/api/order/orderview.php on line 9
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ds2016/public_html/api/order/orderview.php on line 10
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ds2016/public_html/api/order/orderview.php on line 9
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ds2016/public_html/api/order/orderview.php on line 10
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ds2016/public_html/api/order/orderview.php on line 9
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ds2016/public_html/api/order/orderview.php on line 10
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/ds2016/public_html/api/order/orderview.php on line 7
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ds2016/public_html/api/order/orderview.php on line 9
+[09-Jul-2018 01:00:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ds2016/public_html/api/order/orderview.php on line 10
+[27-Jul-2018 02:28:19 America/Chicago] PHP Notice:  Undefined index: servicequantity in /home/ds2016/public_html/api/order/orderpost.php on line 83
+[27-Jul-2018 02:28:19 America/Chicago] PHP Notice:  Undefined index: serviceprice in /home/ds2016/public_html/api/order/orderpost.php on line 84
+[27-Jul-2018 02:28:19 America/Chicago] PHP Notice:  Undefined index: servicetotal in /home/ds2016/public_html/api/order/orderpost.php on line 85
+[07-Aug-2018 13:44:54 America/Chicago] PHP Notice:  Undefined index: oauth_uid in /home/ds2016/public_html/api/order/orderpost.php on line 23
+[07-Aug-2018 13:45:50 America/Chicago] PHP Notice:  Undefined index: oauth_uid in /home/ds2016/public_html/api/order/orderpost.php on line 23
+[07-Aug-2018 13:46:56 America/Chicago] PHP Notice:  Undefined index: oauth_uid in /home/ds2016/public_html/api/order/orderpost.php on line 23
+[07-Aug-2018 13:52:58 America/Chicago] PHP Notice:  Undefined index: oauth_uid in /home/ds2016/public_html/api/order/orderpost.php on line 23
+[07-Aug-2018 13:57:52 America/Chicago] PHP Notice:  Undefined index: oauth_uid in /home/ds2016/public_html/api/order/orderpost.php on line 23
+[07-Aug-2018 14:14:05 America/Chicago] PHP Notice:  Undefined index: oauth_uid in /home/ds2016/public_html/api/order/orderpost.php on line 23
+[07-Aug-2018 14:35:42 America/Chicago] PHP Notice:  Undefined index: oauth_uid in /home/ds2016/public_html/api/order/orderpost.php on line 23
+[07-Aug-2018 15:11:59 America/Chicago] PHP Notice:  Undefined index: servicequantity in /home/ds2016/public_html/api/order/orderpost.php on line 83
+[07-Aug-2018 15:11:59 America/Chicago] PHP Notice:  Undefined index: serviceprice in /home/ds2016/public_html/api/order/orderpost.php on line 84
+[07-Aug-2018 15:11:59 America/Chicago] PHP Notice:  Undefined index: servicetotal in /home/ds2016/public_html/api/order/orderpost.php on line 85
+[07-Aug-2018 15:16:00 America/Chicago] PHP Notice:  Undefined index: servicequantity in /home/ds2016/public_html/api/order/orderpost.php on line 83
+[07-Aug-2018 15:16:00 America/Chicago] PHP Notice:  Undefined index: serviceprice in /home/ds2016/public_html/api/order/orderpost.php on line 84
+[07-Aug-2018 15:16:00 America/Chicago] PHP Notice:  Undefined index: servicetotal in /home/ds2016/public_html/api/order/orderpost.php on line 85
+[07-Aug-2018 15:17:15 America/Chicago] PHP Notice:  Undefined index: servicequantity in /home/ds2016/public_html/api/order/orderpost.php on line 83
+[07-Aug-2018 15:17:15 America/Chicago] PHP Notice:  Undefined index: serviceprice in /home/ds2016/public_html/api/order/orderpost.php on line 84
+[07-Aug-2018 15:17:15 America/Chicago] PHP Notice:  Undefined index: servicetotal in /home/ds2016/public_html/api/order/orderpost.php on line 85
+[08-Aug-2018 01:58:08 America/Chicago] PHP Notice:  Undefined index: oauth_uid in /home/ds2016/public_html/api/order/orderpost.php on line 23
+[08-Aug-2018 02:02:02 America/Chicago] PHP Notice:  Undefined index: oauth_uid in /home/ds2016/public_html/api/order/orderpost.php on line 23
+[08-Aug-2018 02:27:48 America/Chicago] PHP Notice:  Undefined index: oauth_uid in /home/ds2016/public_html/api/order/orderpost.php on line 23
+[08-Aug-2018 02:32:28 America/Chicago] PHP Notice:  Undefined index: oauth_uid in /home/ds2016/public_html/api/order/orderpost.php on line 23
+[08-Aug-2018 02:34:14 America/Chicago] PHP Notice:  Undefined index: oauth_uid in /home/ds2016/public_html/api/order/orderpost.php on line 23
+[08-Aug-2018 06:23:18 America/Chicago] PHP Notice:  Undefined index: oauth_uid in /home/ds2016/public_html/api/order/orderpost.php on line 23
+[09-Aug-2018 05:11:39 America/Chicago] PHP Notice:  Undefined index: servicequantity in /home/ds2016/public_html/api/order/orderpost.php on line 83
+[09-Aug-2018 05:11:39 America/Chicago] PHP Notice:  Undefined index: serviceprice in /home/ds2016/public_html/api/order/orderpost.php on line 84
+[09-Aug-2018 05:11:39 America/Chicago] PHP Notice:  Undefined index: servicetotal in /home/ds2016/public_html/api/order/orderpost.php on line 85
+[28-Aug-2018 09:11:53 America/Chicago] PHP Notice:  Undefined index: servicequantity in /home/ds2016/public_html/api/order/orderpost.php on line 83
+[28-Aug-2018 09:11:53 America/Chicago] PHP Notice:  Undefined index: serviceprice in /home/ds2016/public_html/api/order/orderpost.php on line 84
+[28-Aug-2018 09:11:53 America/Chicago] PHP Notice:  Undefined index: servicetotal in /home/ds2016/public_html/api/order/orderpost.php on line 85
+[28-Aug-2018 09:11:53 America/Chicago] PHP Notice:  Undefined index: servicequantity in /home/ds2016/public_html/api/order/orderpost.php on line 83
+[28-Aug-2018 09:11:53 America/Chicago] PHP Notice:  Undefined index: serviceprice in /home/ds2016/public_html/api/order/orderpost.php on line 84
+[28-Aug-2018 09:11:53 America/Chicago] PHP Notice:  Undefined index: servicetotal in /home/ds2016/public_html/api/order/orderpost.php on line 85
+[28-Aug-2018 09:18:59 America/Chicago] PHP Notice:  Undefined index: servicequantity in /home/ds2016/public_html/api/order/orderpost.php on line 83
+[28-Aug-2018 09:18:59 America/Chicago] PHP Notice:  Undefined index: serviceprice in /home/ds2016/public_html/api/order/orderpost.php on line 84
+[28-Aug-2018 09:18:59 America/Chicago] PHP Notice:  Undefined index: servicetotal in /home/ds2016/public_html/api/order/orderpost.php on line 85
+[28-Aug-2018 09:18:59 America/Chicago] PHP Notice:  Undefined index: servicequantity in /home/ds2016/public_html/api/order/orderpost.php on line 83
+[28-Aug-2018 09:18:59 America/Chicago] PHP Notice:  Undefined index: serviceprice in /home/ds2016/public_html/api/order/orderpost.php on line 84
+[28-Aug-2018 09:18:59 America/Chicago] PHP Notice:  Undefined index: servicetotal in /home/ds2016/public_html/api/order/orderpost.php on line 85
+[18-Dec-2018 12:55:42 America/Chicago] PHP Notice:  Undefined index: servicequantity in /home/ds2016/public_html/api/order/orderpost.php on line 83
+[18-Dec-2018 12:55:42 America/Chicago] PHP Notice:  Undefined index: serviceprice in /home/ds2016/public_html/api/order/orderpost.php on line 84
+[18-Dec-2018 12:55:42 America/Chicago] PHP Notice:  Undefined index: servicetotal in /home/ds2016/public_html/api/order/orderpost.php on line 85

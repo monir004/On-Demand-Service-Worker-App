@@ -1,0 +1,4 @@
+[07-Jan-2019 09:42:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ds2016/public_html/includes/servicesInDetails.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/ds2016/public_html/includes/servicesInDetails.php on line 4

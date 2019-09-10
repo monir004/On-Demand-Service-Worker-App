@@ -1,0 +1,13 @@
+[28-Dec-2018 15:39:15 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2019] Can't initialize character set utf8_unicode_ci (path: /usr/share/percona-server/charsets/) in /home/ds2016/public_html/api_v1/db.php:25
+Stack trace:
+#0 /home/ds2016/public_html/api_v1/db.php(25): PDO->__construct('mysql:host=192....', 'ds2016_user_ad', '@LexhlaEzPKF', Array)
+#1 /home/ds2016/public_html/api_v1/db.php(39): DB::instance()
+#2 /home/ds2016/public_html/api_v1/db.php(46): DB::run('SHOW VARIABLES ...')
+#3 {main}
+  thrown in /home/ds2016/public_html/api_v1/db.php on line 25
+[28-Dec-2018 15:57:03 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SHOW VARIABLES LIKE 'collation%'' at line 2 in /home/ds2016/public_html/api_v1/db.php:40
+Stack trace:
+#0 /home/ds2016/public_html/api_v1/db.php(40): PDO->query('SHOW VARIABLES ...')
+#1 /home/ds2016/public_html/api_v1/db.php(47): DB::run('SHOW VARIABLES ...')
+#2 {main}
+  thrown in /home/ds2016/public_html/api_v1/db.php on line 40

@@ -1,0 +1,56 @@
+[16-Oct-2018 10:20:13 America/Chicago] PHP Fatal error:  Call to undefined function utf8ize() in /home/ds2016/public_html/api/prop.php on line 108
+[16-Oct-2018 10:24:06 America/Chicago] PHP Warning:  Cannot use a scalar value as an array in /home/ds2016/public_html/api/prop.php on line 112
+[16-Oct-2018 10:24:06 America/Chicago] PHP Warning:  Cannot use a scalar value as an array in /home/ds2016/public_html/api/prop.php on line 112
+[16-Oct-2018 10:25:22 America/Chicago] PHP Warning:  Cannot use a scalar value as an array in /home/ds2016/public_html/api/prop.php on line 112
+[16-Oct-2018 10:25:22 America/Chicago] PHP Warning:  Cannot use a scalar value as an array in /home/ds2016/public_html/api/prop.php on line 112
+[16-Oct-2018 13:07:32 America/Chicago] PHP Warning:  A non-numeric value encountered in /home/ds2016/public_html/api/status.php on line 6
+[16-Oct-2018 13:07:32 America/Chicago] PHP Warning:  A non-numeric value encountered in /home/ds2016/public_html/api/status.php on line 6
+[16-Oct-2018 13:07:32 America/Chicago] PHP Fatal error:  Uncaught DivisionByZeroError: Modulo by zero in /home/ds2016/public_html/api/status.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ds2016/public_html/api/status.php on line 6
+[13-Dec-2018 15:48:07 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '01521220462''' at line 1 in /home/ds2016/public_html/api/notification.php:8
+Stack trace:
+#0 /home/ds2016/public_html/api/notification.php(8): PDO->query('SELECT * FROM n...')
+#1 {main}
+  thrown in /home/ds2016/public_html/api/notification.php on line 8
+[13-Dec-2018 15:48:36 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '01521220462''' at line 1 in /home/ds2016/public_html/api/notification.php:9
+Stack trace:
+#0 /home/ds2016/public_html/api/notification.php(9): PDO->query('SELECT * FROM n...')
+#1 {main}
+  thrown in /home/ds2016/public_html/api/notification.php on line 9
+[13-Dec-2018 15:49:59 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '01521220462''' at line 1 in /home/ds2016/public_html/api/notification.php:9
+Stack trace:
+#0 /home/ds2016/public_html/api/notification.php(9): PDO->query('select * from f...')
+#1 {main}
+  thrown in /home/ds2016/public_html/api/notification.php on line 9
+[13-Dec-2018 15:55:48 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ds2016/public_html/api/notification.php on line 13
+[13-Dec-2018 16:24:58 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/ds2016/public_html/api/notification.php:9
+Stack trace:
+#0 /home/ds2016/public_html/api/notification.php(9): PDO->query('select * from n...')
+#1 {main}
+  thrown in /home/ds2016/public_html/api/notification.php on line 9
+[13-Dec-2018 16:25:15 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/ds2016/public_html/api/notification.php:9
+Stack trace:
+#0 /home/ds2016/public_html/api/notification.php(9): PDO->query('select * from n...')
+#1 {main}
+  thrown in /home/ds2016/public_html/api/notification.php on line 9
+[13-Dec-2018 16:27:19 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '01521220462''' at line 1 in /home/ds2016/public_html/api/notification.php:9
+Stack trace:
+#0 /home/ds2016/public_html/api/notification.php(9): PDO->query('select * from n...')
+#1 {main}
+  thrown in /home/ds2016/public_html/api/notification.php on line 9
+[13-Dec-2018 16:34:41 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/ds2016/public_html/api/notification.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ds2016/public_html/api/notification.php on line 10
+[13-Dec-2018 17:58:31 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'at desc' at line 1 in /home/ds2016/public_html/api/notification.php:10
+Stack trace:
+#0 /home/ds2016/public_html/api/notification.php(10): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ds2016/public_html/api/notification.php on line 10
+[13-Dec-2018 17:59:03 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'at desc' at line 1 in /home/ds2016/public_html/api/notification.php:10
+Stack trace:
+#0 /home/ds2016/public_html/api/notification.php(10): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ds2016/public_html/api/notification.php on line 10

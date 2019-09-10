@@ -1,0 +1,659 @@
+        /*===============================
+        helper css
+=================================*/
+    
+    .main_menu_side [class^="pe-7s-"],
+    [class*=" pe-7s-"] {
+        font-size: 16px;
+        padding-right: 10px;
+    }
+    
+    body {
+        font-family: 'Lato', sans-serif;
+        border-radius: 0px !important;
+    }
+    
+    .menuDivider {
+        border-top: 3px #e5e5e5 solid;
+        margin: 5px 0 -7px;
+    }
+    
+    #imagepreview {
+        height: 180px;
+        width: 180px;
+        float: left;
+        border: 1px solid #95a5a6;
+        padding: 2px;
+        margin-top: 10px;
+    }
+    
+    #addSrvBtn {
+        font-size: 16px;
+        padding: 15px 24px;
+    }
+    
+    #datatable thead tr th,
+    #datatable tbody tr td {
+        vertical-align: middle;
+    }
+    
+    .service-error,
+    .user-error {
+        color: #fc0b27 !important;
+    }
+    
+    * .btn{
+        border-radius: 0px !important;
+    }
+    /*===============================
+        login.html
+=================================*/
+    
+    #login-body::before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1000;
+        opacity: 0.3;
+        background-image: url(../images/login-bg.jpg);
+        background-repeat: repeat;
+    }
+    
+    #login-body .container {
+        text-align: center;
+        padding-top: 70px;
+    }
+    
+    #login-body .container h1 {
+        font-size: 38px;
+        margin-bottom: 40px;
+    }
+    
+    .login-main img {
+        width: 80px;
+        margin: 0 auto;
+    }
+    
+    .login-main .login-box {
+        background-color: white;
+        padding: 20px 20px;
+        width: 380px;
+        margin: 0 auto;
+        border-top: 4px solid #01b1d7;
+    }
+    
+    .login-input {
+        position: relative;
+        width: 90%;
+        margin: 15px auto;
+    }
+    
+    .login-input span {
+        position: absolute;
+        display: block;
+        color: #d4d4d4;
+        left: 10px;
+        top: 8px;
+        font-size: 20px;
+    }
+    
+    .login-input input {
+        width: 100%;
+        padding: 10px 5px 10px 40px;
+        display: block;
+        border: 1px solid #EDEDED;
+        border-radius: 0px;
+        transition: 0.2s ease-out;
+        color: #2c3e50;
+        font-size: 17px;
+    }
+    
+    .login-input input:focus {
+        padding: 10px 5px 10px 10px;
+        outline: 0;
+        border-color: #01b1d7;
+    }
+    
+    .login-input .fa {
+        color: #01b1d7;
+    }
+    
+    .login-box button,
+    .login-box button:active,
+    .login-box button:focus {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        border-radius: 0px;
+        padding: 10px 120px;
+        font-size: 20px;
+        background-color: transparent;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .login-box button:hover {
+        background-color: #01b1d7;
+        color: #fff;
+        border-color: #01b1d7;
+    }
+    
+    .login-main .sign-box {
+        background-color: #f6f6f6;
+        padding: 20px 20px;
+        width: 380px;
+        margin: 0 auto;
+    }
+    
+    #register {
+        width: 480px;
+    }
+    
+    #register button {
+        padding: 10px 95px;
+    }
+    
+    .sign-body::before {
+        height: 125% !important;
+    }
+    
+    .sign-body .sign-box {
+        width: 480px;
+    }
+    /*===============================
+        createorder.html
+=================================*/
+    /*Createorder-form Button*/
+    
+    #createorder-form button,
+    #order-details-form button {
+        border-radius: 0px;
+        border-color: #73879C;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    #createorder-form button:hover,
+    #createorder-form button:active,
+    #createorder-form button:focus,
+    #order-details-form button:hover,
+    #order-details-form button:active,
+    #order-details-form button:focus,
+    #invoice button:hover,
+    #invoice button:active,
+    #invoice button:focus {
+        background-color: #2A3F54;
+        color: white;
+        border-color: #2A3F54;
+    }
+    
+    #createorder-form .col-md-offset-3,
+    #order-details-form .col-md-offset-3 {
+        margin-left: 26%;
+    }
+    
+    #createorder-form textarea {
+        resize: none;
+    }
+    
+    #invoice button {
+        border-radius: 0px;
+        padding: 12px;
+        float: right;
+        font-size: 16px;
+        margin-top: 15px;
+        border-color: #73879C;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .profile {
+        overflow: auto;
+        margin-bottom: -10px;
+    }
+    
+    #invoice .table>tbody>tr>td,
+    .table>tbody>tr>th,
+    #invoice .table>tfoot>tr>td,
+    #invoice .table>tfoot>tr>th,
+    #invoice .table>thead>tr>td,
+    #invoice .table>thead>tr>th {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .action {
+        font-size: 18px !important;
+    }
+    
+    .page-title .title_left {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .dropdown-menu>li>a {
+        font-size: 14px;
+        padding: 12px 20px;
+        border-radius: 0px;
+    }
+    /*===============================
+        manage-order.html
+=================================*/
+    /*Manage order form*/
+    
+    .manage-order-heading {
+        margin-top: 70px;
+        text-transform: uppercase;
+    }
+    
+    #manage-order-form {
+        margin-top: 35px;
+    }
+    
+    #manage-order-form label,
+    #manage-order-form select {
+        text-transform: capitalize;
+    }
+    
+    #manage-order-form select {
+        width: 65%;
+        padding: 3px 5px;
+    }
+    
+    #manage-order-form .btn {
+        padding: 3px 12px;
+        text-transform: capitalize;
+    }
+    /*Manage order list header*/
+    
+    .order-list-header {
+        margin-top: 90px;
+    }
+    /*Manage order list*/
+    
+    .order-list-left label {
+        text-transform: capitalize;
+    }
+    
+    .order-list-left select {
+        width: 30%;
+        padding: 5px;
+    }
+    
+    .order-list-right {
+        float: right;
+        text-transform: capitalize;
+    }
+    
+    .order-list-right input {
+        padding: 5px
+    }
+    /*Manage order table*/
+    
+    .order-table {
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    .order-table th {
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .order-table a {
+        /*background: #73879C;
+        color: #fff;
+        padding: 1px 10px;
+        display: block;
+        border: 1px solid #73879C;    */
+        font: normal normal normal 14px/1 FontAwesome;
+    }
+    
+    .order-table a:hover {
+        background: transparent;
+        color: #73879C;
+    }
+    
+    .order-table .btn {
+        background: #73879C;
+        text-transform: uppercase;
+        border: 1px solid #73879C;
+        color: #fff;
+    }
+    
+    .order-table .btn:hover {
+        background: transparent;
+        color: #73879C;
+    }
+    /*Order Details*/
+    
+    .order-detail-heading {
+        text-transform: uppercase;
+    }
+    /*Create Order Full Detail*/
+    
+    #create-order-detail {
+        margin-top: 40px;
+    }
+    
+    #create-order-detail ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    #create-order-detail li {
+        line-height: 25px;
+    }
+    
+    #create-order-detail strong {
+        text-transform: capitalize;
+    }
+    
+    #create-order-detail .create-order-user-info span > a,
+    #create-order-detail .create-order-payment-info span > a {
+        color: #FE2E2E;
+        text-transform: capitalize;
+        display: block;
+    }
+    
+    #create-order-detail .label {
+        background: #FA58F4;
+        font-size: 12px;
+        border-radius: 10px;
+        padding-top: 4px;
+        text-transform: capitalize;
+    }
+    
+    #create-order-detail .label-default {
+        background: #A4A4A4;
+    }
+    /*Order Details Table Header*/
+    
+    .order-detail-table-header {
+        margin-top: 270px;
+    }
+    
+    .order-detail-table {
+        margin-top: 330px;
+    }
+    
+    .order-detail-table th {
+        text-transform: uppercase;
+    }
+    
+    .order-detail-table th,
+    .order-detail-table td {
+        text-align: center;
+    }
+    
+    .order-detail-table .btn {
+        text-transform: uppercase;
+        background: #73879C;
+        border: 1px solid #73879C;
+        color: #fff;
+    }
+    
+    .order-detail-table .btn:hover {
+        background: transparent;
+        color: #73879C;
+    }
+    
+    .order-footer-left p {
+        float: left;
+    }
+    
+    .order-footer-right nav {
+        float: right;
+    }
+    
+    .order-footer-right .pagination a {
+        background: transparent;
+        color: #73879C;
+        text-transform: uppercase;
+        border: 1px solid #73879C;
+    }
+    
+    .order-footer-right .pagination a:hover {
+        background: #73879C;
+        color: #fff;
+        border: 1px solid #73879C;
+    }
+    
+    .order-footer-right .pagination .active > a {
+        background: #73879C;
+        color: #fff;
+    }
+    
+    .order-detail-price-table {
+        text-transform: uppercase;
+    }
+    
+    .order-detail-price-table th {
+        text-align: center;
+    }
+    
+    .order-detail-about-button ul {
+        list-style: none;
+    }
+    
+    .order-detail-about-button li {
+        display: inline-block;
+    }
+    
+    .order-detail-about-button {
+        clear: both;
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .order-detail-about-button .btn {
+        text-transform: capitalize;
+        color: #fff;
+    }
+    
+    .order-detail-about-button .btn-order {
+        background: #819FF7;
+    }
+    
+    .order-detail-about-button .btn-add {
+        background: #2ECCFA;
+    }
+    
+    .order-detail-about-button .btn-adjust {
+        background: #81DAF5;
+    }
+    
+    .order-detail-about-button .btn-view {
+        background: #2E64FE;
+    }
+    
+    .order-detail-about-button .btn-cancle {
+        background: #08298A;
+    }
+    
+    .order-add-reset-button {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    
+    .order-add-reset-button .btn {
+        text-transform: uppercase;
+        background: transparent;
+        border: 1px solid #ddd;
+    }
+    
+    .order-add-reset-button .btn:hover {
+        background: #81DAF5;
+        color: #fff;
+    }
+    /*===============================
+        dashboard.html
+=================================*/
+    
+    .top-overview .col-md-4 i {
+        font-size: 56px;
+    }
+    
+    .top-overview .col-md-4 h2 {
+        font-size: 30px;
+    }
+    
+    .top-overview .col-md-4 span {
+        font-size: 12px;
+        display: block;
+    }
+    
+    .overview-details thead {
+        background-color: #2c3e50;
+        color: white;
+    }
+    
+    .overview-details>tbody>tr>td,
+    .overview-details>thead>tr>th {
+        font-size: 16px;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .overview-details>thead:first-child>tr:first-child>th {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    
+    .overview-details .dashboard-category {
+        text-align: left;
+        width: 240px;
+    }
+    
+    #weather-widget {
+        padding: 0px;
+    }
+    
+    .time-box {
+        background-color: #333333;
+        color: white;
+        padding-top: 40px;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    
+    .time-box h4 {
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+    
+    .weather-box {
+        padding-top: 15px;
+        text-align: center;
+        color: #333333;
+        overflow: auto;
+        padding-bottom: 15px;
+    }
+    
+    .weather-box img {
+        width: 110px;
+        margin: 0 auto;
+    }
+    
+    .weather-box h2 {
+        font-size: 20px;
+    }
+    
+    .weather-box h1 span {
+        font-size: 41px;
+    }
+    
+    .weather-box h1 {
+        font-size: 30px;
+    }
+    
+    .weather-box h4 {
+        font-size: 20px;
+        padding-top: 3px;
+    }
+    
+    .time-box h1 {
+        font-size: 45px;
+    }
+    
+    .time-box h1 span {
+        font-size: 20px;
+    }
+    /*===============================
+        services.html
+=================================*/
+    
+    #inputfile {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    #inputfile + label {
+        border: 1px solid #2c3e50;
+        padding: 10px 18px;
+        font-size: 14px;
+        color: #2c3e50;
+        cursor: pointer;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        margin-left: 315px;
+        transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+    }
+    
+    #inputfile:focus + label,
+    #inputfile + label:hover {
+        background-color: #2c3e50;
+        color: white;
+    }
+    /*===============================
+        ViewServices.html
+=================================*/
+    
+    .download {
+        border: 1px solid #2c3e50;
+        border-radius: 0px;
+        padding: 15px 18px;
+        margin-bottom: 50px;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .download:hover {
+        background-color: #2c3e50;
+        color: white;
+        border: 1px solid #2c3e50;
+    }
+    
+    .md-content {
+        background: #ffffff;
+        color: black;
+    }
+    
+    .md-content h3 {
+        padding: 22px;
+    }
+    
+    #editservice-form {
+        padding-top: 20px;
+    }
+    
+    .close-animatedModal {
+        text-align: center;
+        padding: 12px;
+    }
+    
+    .modal-content {
+        position: relative;
+        background-color: #fff;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        border: none;
+        border-radius: 6px;
+        outline: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none
